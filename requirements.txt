@@ -27,13 +27,13 @@
 ##### Core scientific packages
 jupyter==1.0.0
 matplotlib==3.0.2
-numpy==1.15.4
+numpy==1.16.0
 pandas==0.23.4
-scipy==1.1.0
+scipy==1.2.0
 
 
 ##### Machine Learning packages
-scikit-learn==0.20.1
+scikit-learn==0.20.2
 
 # Optional: the XGBoost library is only used in the ensemble learning chapter.
 #xgboost==0.71
@@ -50,7 +50,7 @@ tensorflow==1.12.0
 
 # Forcing bleach to 1.5 to avoid version incompatibility when installing
 # TensorBoard.
-bleach==3.0.2
+bleach==3.1.0
 
 Keras==2.2.4
 
@@ -65,18 +65,18 @@ Keras==2.2.4
 
 ##### Image manipulation
 imageio==2.4.1
-Pillow==5.3.0
+Pillow==5.4.1
 scikit-image==0.14.1
 
 
 ##### Extra packages (optional)
 
 # Nice utility to diff Jupyter Notebooks.
-nbdime==1.0.3
+nbdime==1.0.4
 
 # May be useful with Pandas for complex "where" clauses (e.g., Pandas
 # tutorial).
-numexpr==2.6.8
+numexpr==2.6.9
 
 # Optional: these libraries can be useful in the classification chapter,
 # exercise 4.
@@ -89,4 +89,4 @@ jupyter-tensorboard==0.1.8
 
 # Optional: these are useful Jupyter extensions, in particular to display the
 # table of contents
-jupyter-contrib-nbextensions==0.5.0
+jupyter-contrib-nbextensions==0.5.1
